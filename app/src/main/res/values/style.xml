@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextStyle" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#78dbe2</item>
+        <item name="android:fontFamily">@font/rubik_mono_one</item>
+    </style>
+    <style name="MyHeadStyle" parent="MyTextStyle">
+        <item name="android:textSize">40dp</item>
+    </style>
+    <style name="MyButtonStyle" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">#87ceeb</item>
+        <item name="strokeColor">#00cccc</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">#e0ffff</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+</resources>
